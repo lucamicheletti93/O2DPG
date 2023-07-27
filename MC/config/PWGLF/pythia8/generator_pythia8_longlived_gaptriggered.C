@@ -155,8 +155,8 @@ private:
 
   std::vector<double> mPtMin; /// minimum transverse momentum for generated particles
   std::vector<double> mPtMax; /// maximum transverse momentum for generated particles
-  double mEtaMin = -1.;       /// minimum pseudorapidity for generated particles
-  double mEtaMax = +1.;       /// maximum pseudorapidity for generated particles
+  double mEtaMin = -4.0;       /// minimum pseudorapidity for generated particles
+  double mEtaMax = -2.5;       /// maximum pseudorapidity for generated particles
 
   bool mAlternatingPDGsign = true; /// bool to randomize the PDG code of the core particle
 
